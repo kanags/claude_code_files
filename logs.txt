@@ -1,0 +1,70 @@
+
+> uigen@0.1.0 dev
+> cross-env NODE_OPTIONS="--require ./node-compat.cjs" next dev --turbopack
+
+ ⚠ Port 3000 is in use by process 27880, using available port 3006 instead.
+   ▲ Next.js 15.5.15 (Turbopack)
+   - Local:        http://localhost:3006
+   - Network:      http://192.168.1.8:3006
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 368ms
+ ✓ Ready in 2.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 12.2s
+ GET / 200 in 13144ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1071ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 1632ms
+ GET / 200 in 506ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 454ms
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 1655ms
+{
+  error: [Error [AI_APICallError]: tools.0.custom.input_schema.type: Field required] {
+    cause: undefined,
+    url: 'https://api.anthropic.com/v1/messages',
+    requestBodyValues: {
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 64000,
+      temperature: undefined,
+      top_k: undefined,
+      top_p: undefined,
+      stop_sequences: undefined,
+      system: [Array],
+      messages: [Array],
+      tools: [Array],
+      tool_choice: [Object],
+      stream: true
+    },
+    statusCode: 400,
+    responseHeaders: {
+      'anthropic-organization-id': 'ab64e951-848a-4287-9345-ef4a7476faea',
+      'cf-cache-status': 'DYNAMIC',
+      'cf-ray': '9ed95cdbed26cf00-BLR',
+      connection: 'keep-alive',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'; frame-ancestors 'none'",
+      'content-type': 'application/json',
+      date: 'Fri, 17 Apr 2026 06:27:14 GMT',
+      'request-id': 'req_011Ca8sKtbgSag6TQdk3apmw',
+      server: 'cloudflare',
+      'server-timing': 'x-originResponse;dur=437',
+      'set-cookie': '_cfuvid=.SSUPEKLlhGHMPZ5mxct6bC97V9EAnuTEmtBxUxF2uw-1776407233.9011502-1.0.1.1-Ib35mFsmgOFVmpOge_1vKmTMnib0V1bOHNRAEB.52sc; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.anthropic.com',
+      'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding',
+      'x-envoy-upstream-service-time': '434',
+      'x-robots-tag': 'none',
+      'x-should-retry': 'false'
+    },
+    responseBody: '{"type":"error","error":{"type":"invalid_request_error","message":"tools.0.custom.input_schema.type: Field required"},"request_id":"req_011Ca8sKtbgSag6TQdk3apmw"}',
+    isRetryable: false,
+    data: { type: 'error', error: [Object] }
+  }
+}
+ POST /api/chat 200 in 3948ms
+ GET / 200 in 205ms
+   Reload env: .env
+ ✓ Compiled in 203ms

@@ -1,0 +1,122 @@
+
+> uigen@0.1.0 dev
+> cross-env NODE_OPTIONS="--require ./node-compat.cjs" next dev --turbopack
+
+   ▲ Next.js 15.5.15 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.8:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 246ms
+ ✓ Ready in 2s
+   Reload env: .env
+ ○ Compiling / ...
+ ✓ Compiled / in 23s
+ GET / 200 in 25731ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1067ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 1576ms
+ GET / 200 in 424ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 486ms
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 1562ms
+{
+  error: [Error [AI_RetryError]: Failed after 3 attempts. Last error: Cannot connect to API: ] {
+    cause: undefined,
+    reason: 'maxRetriesExceeded',
+    errors: [
+      [Error [AI_APICallError]: Cannot connect to API: ] {
+        url: 'http://localhost:65113/messages',
+        requestBodyValues: {
+          model: 'claude-haiku-4-5-20251001',
+          max_tokens: 64000,
+          temperature: undefined,
+          top_k: undefined,
+          top_p: undefined,
+          stop_sequences: undefined,
+          system: [ [Object] ],
+          messages: [ [Object] ],
+          tools: [ [Object], [Object] ],
+          tool_choice: { type: 'auto', disable_parallel_tool_use: undefined },
+          stream: true
+        },
+        statusCode: undefined,
+        responseHeaders: undefined,
+        responseBody: undefined,
+        isRetryable: true,
+        data: undefined,
+        [cause]: [AggregateError: ] { code: 'ECONNREFUSED' }
+      },
+      [Error [AI_APICallError]: Cannot connect to API: ] {
+        url: 'http://localhost:65113/messages',
+        requestBodyValues: {
+          model: 'claude-haiku-4-5-20251001',
+          max_tokens: 64000,
+          temperature: undefined,
+          top_k: undefined,
+          top_p: undefined,
+          stop_sequences: undefined,
+          system: [ [Object] ],
+          messages: [ [Object] ],
+          tools: [ [Object], [Object] ],
+          tool_choice: { type: 'auto', disable_parallel_tool_use: undefined },
+          stream: true
+        },
+        statusCode: undefined,
+        responseHeaders: undefined,
+        responseBody: undefined,
+        isRetryable: true,
+        data: undefined,
+        [cause]: [AggregateError: ] { code: 'ECONNREFUSED' }
+      },
+      [Error [AI_APICallError]: Cannot connect to API: ] {
+        url: 'http://localhost:65113/messages',
+        requestBodyValues: {
+          model: 'claude-haiku-4-5-20251001',
+          max_tokens: 64000,
+          temperature: undefined,
+          top_k: undefined,
+          top_p: undefined,
+          stop_sequences: undefined,
+          system: [ [Object] ],
+          messages: [ [Object] ],
+          tools: [ [Object], [Object] ],
+          tool_choice: { type: 'auto', disable_parallel_tool_use: undefined },
+          stream: true
+        },
+        statusCode: undefined,
+        responseHeaders: undefined,
+        responseBody: undefined,
+        isRetryable: true,
+        data: undefined,
+        [cause]: [AggregateError: ] { code: 'ECONNREFUSED' }
+      }
+    ],
+    lastError: [Error [AI_APICallError]: Cannot connect to API: ] {
+      url: 'http://localhost:65113/messages',
+      requestBodyValues: {
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 64000,
+        temperature: undefined,
+        top_k: undefined,
+        top_p: undefined,
+        stop_sequences: undefined,
+        system: [Array],
+        messages: [Array],
+        tools: [Array],
+        tool_choice: [Object],
+        stream: true
+      },
+      statusCode: undefined,
+      responseHeaders: undefined,
+      responseBody: undefined,
+      isRetryable: true,
+      data: undefined,
+      [cause]: [AggregateError: ] { code: 'ECONNREFUSED' }
+    }
+  }
+}
+ POST /api/chat 200 in 9427ms
+   Reload env: .env
+ ✓ Compiled in 284ms

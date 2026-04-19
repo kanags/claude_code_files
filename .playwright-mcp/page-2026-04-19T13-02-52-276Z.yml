@@ -1,0 +1,56 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a user profile card component with an avatar, name, role, and some stats
+            - img [ref=e58]
+          - generic [ref=e61]:
+            - img [ref=e64]
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - img [ref=e79]
+                - generic [ref=e82]: Your component is ready to preview!
+              - generic [ref=e84]:
+                - img [ref=e85]
+                - generic [ref=e90]: /App.jsx
+                - generic [ref=e91]: created
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [active] [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e528]:
+        - generic [ref=f3e6]:
+          - img "Avatar" [ref=f3e8]
+          - generic [ref=f3e9]:
+            - heading "Alex Morgan" [level=2] [ref=f3e10]
+            - paragraph [ref=f3e11]: Product Designer
+          - generic [ref=f3e12]:
+            - generic [ref=f3e13]:
+              - paragraph [ref=f3e14]: "284"
+              - paragraph [ref=f3e15]: Followers
+            - generic [ref=f3e16]:
+              - paragraph [ref=f3e17]: 1.2K
+              - paragraph [ref=f3e18]: Following
+            - generic [ref=f3e19]:
+              - paragraph [ref=f3e20]: "48"
+              - paragraph [ref=f3e21]: Projects
+          - paragraph [ref=f3e22]: Passionate about creating beautiful and intuitive user experiences.
+          - generic [ref=f3e23]:
+            - button "Follow" [ref=f3e24] [cursor=pointer]
+            - button "Message" [ref=f3e25] [cursor=pointer]
+  - alert [ref=e51]
+  - generic [ref=e464]:
+    - alert
+    - alert

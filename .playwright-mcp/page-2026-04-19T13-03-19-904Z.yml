@@ -1,0 +1,83 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a user profile card component with an avatar, name, role, and some stats
+            - img [ref=e58]
+          - generic [ref=e61]:
+            - img [ref=e64]
+            - generic [ref=e562]:
+              - generic [ref=e563]:
+                - img [ref=e564]
+                - generic [ref=e567]: Your component is ready to preview!
+              - generic [ref=e569]:
+                - img [ref=e570]
+                - generic [ref=e575]: /App.jsx
+                - generic [ref=e576]: created
+          - generic [ref=e529]:
+            - generic [ref=e532]: Create a user profile card component with an avatar, name, role, and some stats
+            - img [ref=e535]
+          - generic [ref=e538]:
+            - img [ref=e541]
+            - generic [ref=e547]:
+              - paragraph [ref=e548]:
+                - text: I already created that for you! The
+                - code [ref=e577]: /App.jsx
+                - text: "file contains a user profile card component with:"
+              - list [ref=e550]:
+                - listitem [ref=e551]:
+                  - strong [ref=e552]: Avatar
+                  - text: "- circular image with border"
+                - listitem [ref=e553]:
+                  - strong [ref=e554]: Name & Role
+                  - text: "- \"Alex Morgan\" as a Product Designer"
+                - listitem [ref=e555]:
+                  - strong [ref=e556]: Stats
+                  - text: "- Followers (284), Following (1.2K), and Projects (48)"
+                - listitem [ref=e557]:
+                  - strong [ref=e558]: Bio
+                  - text: "- a short description"
+                - listitem [ref=e559]:
+                  - strong [ref=e560]: Action buttons
+                  - text: "- Follow and Message buttons"
+              - paragraph [ref=e561]: The card has a gradient header, centered layout, and a clean design with hover effects on the buttons.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e528]:
+        - generic [ref=f3e6]:
+          - img "Avatar" [ref=f3e8]
+          - generic [ref=f3e9]:
+            - heading "Alex Morgan" [level=2] [ref=f3e10]
+            - paragraph [ref=f3e11]: Product Designer
+          - generic [ref=f3e12]:
+            - generic [ref=f3e13]:
+              - paragraph [ref=f3e14]: "284"
+              - paragraph [ref=f3e15]: Followers
+            - generic [ref=f3e16]:
+              - paragraph [ref=f3e17]: 1.2K
+              - paragraph [ref=f3e18]: Following
+            - generic [ref=f3e19]:
+              - paragraph [ref=f3e20]: "48"
+              - paragraph [ref=f3e21]: Projects
+          - paragraph [ref=f3e22]: Passionate about creating beautiful and intuitive user experiences.
+          - generic [ref=f3e23]:
+            - button "Follow" [ref=f3e24] [cursor=pointer]
+            - button "Message" [ref=f3e25] [cursor=pointer]
+  - alert [ref=e51]
+  - generic [ref=e464]:
+    - alert
+    - alert

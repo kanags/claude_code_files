@@ -1,0 +1,124 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a user profile card component with an avatar, name, role, and some stats
+            - img [ref=e58]
+          - generic [ref=e61]:
+            - img [ref=e64]
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - img [ref=e79]
+                - generic [ref=e82]: Your component is ready to preview!
+              - generic [ref=e84]:
+                - img [ref=e85]
+                - generic [ref=e90]: /App.jsx
+                - generic [ref=e91]: created
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [active] [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e94]:
+        - generic [ref=e102] [cursor=pointer]:
+          - img [ref=e103]
+          - generic [ref=e108]: App.jsx
+        - separator [ref=e109]
+        - code [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e117]:
+              - generic [ref=e120]: "1"
+              - generic [ref=e122]: "2"
+              - generic [ref=e123]:
+                - generic [ref=e124] [cursor=pointer]: 
+                - generic [ref=e125]: "3"
+              - generic [ref=e126]:
+                - generic [ref=e127] [cursor=pointer]: 
+                - generic [ref=e128]: "4"
+              - generic [ref=e129]:
+                - generic [ref=e130] [cursor=pointer]: 
+                - generic [ref=e131]: "5"
+              - generic [ref=e133]:
+                - generic [ref=e134] [cursor=pointer]: 
+                - generic [ref=e135]: "6"
+              - generic [ref=e138]: "7"
+              - generic [ref=e140]: "8"
+              - generic [ref=e143]: "9"
+              - generic [ref=e145]: "10"
+              - generic [ref=e146]:
+                - generic [ref=e147] [cursor=pointer]: 
+                - generic [ref=e148]: "11"
+              - generic [ref=e150]: "12"
+              - generic [ref=e151]:
+                - generic [ref=e152] [cursor=pointer]: 
+                - generic [ref=e153]: "13"
+              - generic [ref=e154]:
+                - generic [ref=e155] [cursor=pointer]: 
+                - generic [ref=e156]: "14"
+              - generic [ref=e158]: "15"
+              - generic [ref=e161]: "16"
+              - generic [ref=e163]: "17"
+              - generic [ref=e166]: "18"
+              - generic [ref=e168]: "19"
+              - generic [ref=e170]: "20"
+              - generic [ref=e172]: "21"
+              - generic [ref=e173]:
+                - generic [ref=e174] [cursor=pointer]: 
+                - generic [ref=e175]: "22"
+              - generic [ref=e177]: "23"
+              - generic [ref=e180]: "24"
+              - generic [ref=e183]: "25"
+              - generic [ref=e185]: "26"
+              - generic [ref=e187]: "27"
+              - generic [ref=e188]:
+                - generic [ref=e189] [cursor=pointer]: 
+                - generic [ref=e190]: "28"
+            - generic [ref=e391]:
+              - generic [ref=e393]: import React from 'react';
+              - generic [ref=e396]: "const UserProfileCard = () => {"
+              - generic [ref=e398]: return (
+              - generic [ref=e400]: <div className="min-h-screen bg-gradient-to-br from-slate-900
+              - generic [ref=e402]: to-slate-800 flex items-center justify-center p-4">
+              - generic [ref=e404]: <div className="bg-white rounded-2xl shadow-2xl overflow-hidden
+              - generic [ref=e406]: max-w-sm w-full">
+              - generic [ref=e408]: "{/* Header Background */}"
+              - generic [ref=e410]: <div className="h-24 bg-gradient-to-r from-blue-500
+              - generic [ref=e412]: to-purple-600"></div>
+              - generic [ref=e415]: "{/* Content */}"
+              - generic [ref=e417]: <div className="px-6 pb-6">
+              - generic [ref=e419]: "{/* Avatar */}"
+              - generic [ref=e421]: <div className="flex justify-center -mt-12 mb-4">
+              - generic [ref=e423]: <img
+              - generic [ref=e425]: src="https://images.unsplash.com/
+              - generic [ref=e427]: photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
+              - generic [ref=e429]: alt="Avatar"
+              - generic [ref=e431]: className="w-24 h-24 rounded-full border-4 border-white
+              - generic [ref=e433]: shadow-lg object-cover"
+              - generic [ref=e435]: />
+              - generic [ref=e437]: </div>
+              - generic [ref=e440]: "{/* Name and Role */}"
+              - generic [ref=e442]: <div className="text-center mb-6">
+              - generic [ref=e444]: <h2 className="text-2xl font-bold text-gray-900 mb-1">Alex
+              - generic [ref=e446]: Morgan</h2>
+              - generic [ref=e448]: <p className="text-purple-600 font-semibold text-sm">Product
+              - generic [ref=e450]: Designer</p>
+              - generic [ref=e452]: </div>
+              - generic [ref=e455]: "{/* Stats */}"
+              - generic [ref=e457]: <div className="grid grid-cols-3 gap-4 mb-6 py-6 border-t
+              - generic [ref=e459]: border-b border-gray-200">
+            - textbox "Editor content" [ref=e463]
+  - alert [ref=e51]
+  - generic [ref=e464]:
+    - alert
+    - alert
