@@ -30,6 +30,15 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Project Set up
+        run:
+          npm run setup
+          npm run dev:daemon
+
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
       - name: Run Claude Code
         id: claude
         uses: anthropics/claude-code-action@v1
@@ -47,4 +56,22 @@ jobs:
           # See https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md
           # or https://code.claude.com/docs/en/cli-reference for available options
           # claude_args: '--allowed-tools Bash(gh pr *)'
+          custom_instructions:
+            The project is already setup with all the dependencies and tools needed to perform any action on GitHub. You can use the GitHub CLI tool (gh) to interact with pull requests, issues, and other GitHub features. For example, you can use commands like `gh pr review`, `gh pr merge`, `gh issue comment`, etc. to perform various actions on GitHub. You have access to the repository's codebase and can make changes as needed.  
+            if needed use the tools from mcp__playwright server to launch browsers and perform actions on the web. You can also read the CI results on pull requests to make informed decisions. Always ensure that your actions align with the instructions provided in the comment that tagged you and follow best practices for code reviews and issue management on GitHub.
+              mcp_config: |
+                {
+                  "mcpServers": {
+                    "playwright": {
+                      "command": "npx",
+                      "args": [
+                        "@playwright/mcp@latest",
+                        "--allowed-origins",
+                        "localhost:3000;cdn.tailwindcss.com;esm.sh"
+                      ]
+                    }
+                  }
+                }
+  allowed_tools: "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click,..."
+
 
